@@ -50,6 +50,9 @@ export default {
   overflow: hidden;
   height: 275px;
   width: 1100px;
+  transform-origin: 0;
+  /* ##### Increasing the scale here (i.e. from 1.00 to 1.07) will break the z-index ##### */
+  transform: scale(1.00);
 }
 
 #block_1 {

@@ -1,7 +1,5 @@
 <template>
-  <auto-resize-container>
-    <Blocks />
-  </auto-resize-container>
+  <Blocks />
 </template>
 
 <script>
